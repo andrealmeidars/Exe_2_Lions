@@ -14,7 +14,10 @@ public class Lion {
 
     public boolean  weAreInDanger(Lion lionA, Lion lionB){
 
-      return true;
+        if ( (lionA.getSmile())  &&  (lionB.getSmile()) ) {
+            return  true;
+        }
+    return false;
     }
 
 
