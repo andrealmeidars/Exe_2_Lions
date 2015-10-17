@@ -12,6 +12,11 @@ public class Lion {
         return smile;
     }
 
+    public boolean  weAreInDanger(Lion lionA, Lion lionB){
+
+      return true;
+    }
+
 
 
 }
