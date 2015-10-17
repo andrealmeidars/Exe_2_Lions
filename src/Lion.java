@@ -4,6 +4,10 @@ public class Lion {
 
 
 
+    public Lion(boolean smile) {
+        this.smile = smile;
+    }
+
     public boolean getSmile(){
         return smile;
     }
